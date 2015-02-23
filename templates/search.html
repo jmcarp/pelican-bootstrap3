@@ -1,8 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}
-Search - {{ super() }}
-{% endblock %}
+{% block title %}{{ SITETITLE }} | Search{% endblock %}
 
 {% block scripts %}
     {% if 'assets' in PLUGINS %}
